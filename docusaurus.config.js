@@ -7,7 +7,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'dhabedank', // Usually your GitHub org/user name.
   projectName: 'brokerage-engine-docs', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-162629636-2',
