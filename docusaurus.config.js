@@ -11,8 +11,6 @@ module.exports = {
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-162629636-2',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
     },
     navbar: {
       title: 'Brokerage Engine Docs',
