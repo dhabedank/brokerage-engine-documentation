@@ -1,0 +1,17 @@
+---
+id: invoices
+title: Invoicing
+sidebar_label: Invoicing
+---
+
+import Mermaid from '../src/theme/Mermaid';
+
+<Mermaid chart={`
+	graph TD;
+		A[Invoice Generated]-->B[Invoice paid by cash or check];
+		A-->C[Invoice paid by credit card];
+        A-->D[Deduct from commission];
+        B-->E[Mark invoice paid];
+        E-->F[Mark invoice paid in Accounting System];
+        C-->G[Paid status syncs to Accounting System invoice];
+`}/>
