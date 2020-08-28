@@ -1,13 +1,19 @@
 module.exports = {
   title: 'Brokerage Engine',
   tagline: 'Modern back office software for real estate brokerages 🚀',
-  url: 'https://dev.habedank.org',
+  url: 'https://learn.brokerageengine.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'dhabedank', // Usually your GitHub org/user name.
   projectName: 'brokerage-engine-docs', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-162629636-2',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'Brokerage Engine Docs',
       logo: {
