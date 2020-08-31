@@ -87,7 +87,7 @@ The Quick Search feature allows users to quickly find records of multiple types 
 The Apps & Tools dropdown will contain any Single Sign On (SSO) links that the brokerage has opted into for their instance of Brokerage Engine. Additionally, links to non-integrated services can be included here for convenient access.
 
 :::info
-Please contact [Support](support@brokerageengine.com) to have links added to this section.
+Please contact [Support](mailto:support@brokerageengine.com) to have links added to this section.
 :::
 
 ## Profile Options
