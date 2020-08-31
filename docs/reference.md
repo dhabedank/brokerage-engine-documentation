@@ -71,4 +71,135 @@ Integrates natively with [Eventbrite](https://www.eventbrite.com/) to display co
 Provides a summary of open document files and the status of each checklist item. `Agent` users will have visibility of their own document files, while `Admin` users will see all document files in the company.
 
 #### Marketing Dashboard Widget
-`Admin` users 
+`Admin` users may select marketing opportunities to display under this section via the Featured on Agent Dashboard checkbox in the Edit Marketing Opportunity screen.
+
+### Quick Search 🔍
+The Quick Search feature allows users to quickly find records of multiple types through a global search mechanism. Quick Search is found in the upper left-hand corner of the screen next to **Apps & Tools** and includes the following types of information.
+- Listings
+- Transactions **(staff only)**
+- Agents
+  - `Admin` and above users may click on an agent's profile picture to quickly impersonate that agent.
+- Links & Documents
+- Marketing Opportunities
+- Invoices
+
+### Apps & Tools
+The Apps & Tools dropdown will contain any Single Sign On (SSO) links that the brokerage has opted into for their instance of Brokerage Engine. Additionally, links to non-integrated services can be included here for convenient access.
+
+:::info
+Please contact [Support](support@brokerageengine.com) to have links added to this section.
+:::
+
+## Profile Options
+Located in the upper right-hand corner, users will see their profile picture (if available) and name. Hovering over the name dropdown will expose three (3) options.
+-  Edit Profile
+-  Tutorial Videos
+-  Logout
+   -  Exit Impersonation **(staff only, when impersonating an agent's profile)**
+
+### Edit Profile
+The Edit Profile screen contains details about a users profile as it pertains to Brokerage Engine.
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/N3AOuhDB-oI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### For `Admin` Users
+Admin level users and above may edit their Brokerage Engine profile, or change their password from the Edit Profile screen.
+
+##### Edit Profile
+- **About User**
+  - First Name
+  - Last Name
+  - Display Name
+    - Will determine how the user is known to other users in the system. For example, when claiming a task, the Display Name is who the agent will see working on the task.
+- **Profile Images**
+  - User Avatar
+- **Contact Info**
+  - Email
+    - Email used for logging in and receiving notifications. This email may not be updated by the user. Please contact your `System` admin to update an email using the [User Account Management](admin-tools#user-account-management) administrator tool.
+  - Phone
+  - Slack
+- **Social Info**
+  - Facebook
+  - Twitter
+  - LinkedIn
+  - Instagram
+
+##### Change Password
+Users may update their own password when logged into Brokerage Engine, or by a `System` admin using the tools referenced above.
+
+#### For `Agent` Users
+Agent level users may edit their Brokerage Engine profile, make limited edits to their public DASH profile or change their password from the Edit Profile screen.
+
+##### Edit Profile
+- **About User**
+  - First Name
+  - Last Name
+  - Display Name
+    - Derived from the agent's Familiar Name + Last Name.
+- **Profile Images**
+  - User Avatar
+- **Contact Info**
+  - Email
+    - Email used for logging in to Brokerage Engine. This email may not be updated by the user. Please contact your `System` admin to update an email using the [User Account Management](admin-tools#user-account-management) administrator tool.
+  - Phone
+  - Slack
+- **Social Info**
+  - Facebook
+  - Twitter
+  - LinkedIn
+  - Instagram
+
+##### Edit DASH
+- **Profile Image**
+  - Allows an agent to update their DASH public profile image.
+- **Contact Info**
+  - Phone Number
+    - Allows an agent to update their DASH public profile phone number.
+  - Website
+    - Allows an agent to update their DASH public profile website link.
+- **Profile Remarks**
+  - Allows an agent to update their DASH public profile biography.
+
+
+##### Change Password
+Users may update their own password when logged into Brokerage Engine, or by a `System` admin using the tools referenced above.
+
+##### Office Affiliation
+Displays the agent's Primary Office, as determined in their DASH profile. Brokerage Engine does not recognize secondary offices or affiliations.
+
+##### Edit Notification Preference
+Control how, when and who is notified.
+
+- **Notification Settings**
+  - **Email**
+    - Designate the email which notifications are sent to. This is decoupled from the login email on `Agent` user profiles, as the agent may prefer to have these go to a team inbox.
+    - Assistants or 3rd parties may be added to receive email communications by separating emails using commas. (i.e. **`david@brokerageengine.com,matt@brokerageengine.com`**)
+      - An assistant or 3rd party will now receive all the same emails that the primary agent would receive, based on their Topics settings.
+  - **Mobile (SMS)**
+  - **Notification Method**
+    - Email Only
+    - Email and Text Message (SMS)
+- **Notification Topics**
+  - Coming Soon Listings
+  - Buyer Needs
+  - Marketing Opportunities
+
+##### Payment Settings
+Area to manage an agent's preferred payment method, adding a new payment method, or configuring their Automatic Payment settings.
+
+:::tip
+In order to remove a payment method, an `Accounting` user must revoke the card in Braintree. Agents may not remove their own payment methods at this time.
+:::
+
+:::note
+Although Brokerage Engine can be configured to have Automatic Payments enabled by default on agent profiles, an agent **may** chose to disable Automatic Payments at their own discretion.
+:::
+
+## Training Videos
+For your convenience and benefit, instructional videos have been included in-app to better explain common uses of Brokerage Engine. Videos are segmented by the user's permissions, so `Agent` users will only see videos pertaining to them. `Admin` users will see videos intended for staff **and** agents.
+
+## Logout
+For security purposes, it is recommended to logout of Brokerage Engine if the application was used on a public computer.
+
+### Exit Impersonation
+When an `Admin` is impersonating an `Agent` profile, exiting the impersonation will return the user back to their `Admin` account. The user may now proceed logging out of Brokerage Engine.

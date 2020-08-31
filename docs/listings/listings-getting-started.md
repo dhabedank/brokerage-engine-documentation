@@ -2,12 +2,10 @@
 id: listings-getting-started
 title: Getting Started with Listings
 sidebar_label: Getting Started with Listings
+hide_title: false
+hide_table_of_contents: false
+description: Learn how you can get up and running with listings in Brokerage Engine.
 ---
-## Step One - New Listing
-An agent at the brokerage will initiate a listing in Brokerage Engine using the Quick Launch feature. However, a member of the brokerage staff can initiate the listing within Brokerage Engine upon the agent’s request.
-
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/RrtNuDGZHlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 export const Highlight = ({children, color}) => (
   <span
     style={{
@@ -19,6 +17,16 @@ export const Highlight = ({children, color}) => (
     {children}
   </span>
 );
+
+## Statuses
+Statuses in Brokerage Engine are derived, with some limited exceptions, from those available in Realogy's dashAPI.
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/M2WPaaF5ecY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## New Listing
+An agent at the brokerage will initiate a listing in Brokerage Engine using the Quick Launch feature. However, a member of the brokerage staff can initiate the listing within Brokerage Engine upon the agent’s request.
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/RrtNuDGZHlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Quick Launch Method
 A Quick Launch is the recommended method for initial listing entry to Brokerage Engine. By encouraging users to Quick Launch their new listing, Brokerage Engine provides several benefits such as: Send a Coming Soon, Order marketing and photos and Upload documentation prior to MLS listing activation.
@@ -45,7 +53,7 @@ For clients who would like staff to control the listing entry process completely
 ### Mixed Listing Entry Mode
 In an effort to limit the amount of duplicate entry done by an agent or staff member, but also gain benefits of the Quick Launch process - Brokerage Engine supports what we call Mixed Listing Entry Mode. Agents may perform the traditional Quick Launch process and upon the listing going Active in MLS, a staff member can do a full import/overwrite of the existing listing in Brokerage Engine with data and photos from the MLS. The agent or staff member must ensure a valid MLS number is entered on the Brokerage Engine listing prior to import to avoid duplicate listings in the system.
 
-## Step Two - Edit Listing
+## Edit Listing
 The agent is encouraged to provide as much detail on a listing as possible, prior to going <Highlight color="#16D39A">ACTIVE</Highlight>. This can be accomplished through manual data entry by the agent, or by the brokerage staff member. Throughout the lifetime of the listing, an agent has the ability to update critical and time sensitive details of a listing like Price and Expiration Date. Brokerage Engine will automatically issue a required compliance task and notification email to agents for them to submit the necessary paperwork.
 
 ### Manual Updates
@@ -58,7 +66,7 @@ Brokerage Engine can automate common updates made to listings during their lifes
 Brokerage Engine cannot automate putting a listing under contract (PENDING) as an associated DASH transaction entity is required to be created by the agent or brokerage staff member.
 :::
 
-## Step Three - Activate Listing
+## Activate Listing
 Once listing documents have been uploaded, verified and approved - the brokerage staff member converts the listing status from <Highlight color="#E57373">DRAFT</Highlight> to <Highlight color="#FFD54F">GOOD TO LAUNCH</Highlight>. At this point, we encourage staff to confirm accuracy of listing data and media. Once this has been completed, only brokerage staff may launch a listing. It is at this point that a listing will move from <Highlight color="#FFD54F">GOOD TO LAUNCH</Highlight> status and on to <Highlight color="#16D39A">ACTIVE</Highlight> status.
 
 ### Agent Initiated Launch
@@ -78,5 +86,5 @@ If an agent previously Quick Launched their listing on Brokerage Engine, the MLS
 #### Advanced Good to Launch Process
 Under Advanced Good to Launch, the brokerage is still responsible for putting a listing in <Highlight color="#FFD54F">GOOD TO LAUNCH</Highlight> status. However, an agent will now receive a task to launch the listing at a time of their choosing.
 
-## Step Three - Listing Launched 🎉
+## Listing Launched 🎉
 Congratulations! Your listing is now active within the DASH listing and online syndication system.
