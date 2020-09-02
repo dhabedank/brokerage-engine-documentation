@@ -79,7 +79,7 @@ Users may download all photos of a listing, in their original size or MLS sized 
 ###### Include Offline Photos
 If selected, the download will also include images from the Media Library.
 
-### Listing Links
+#### Listing Links
 Links to media such as virtual tours, floorplans and videos. For Realogy-affiliated companies, these fields will map to the corresponding fields in dashAPI.
 - **Virtual Tour**
   - Link to the virtual tour website provided by your photographer.
@@ -93,9 +93,12 @@ Links to media such as virtual tours, floorplans and videos. For Realogy-affilia
   - Link to the interactive or static (Ex. a PDF or image) floorplan.
   - User has the option to toggle between a link or a direct upload (in the event the static floorplan has not already been hosted somewhere).
 
-### Brightcove (Sotheby's International Realty affiliates only)
+#### Brightcove (Sotheby's International Realty affiliates only)
 With the Brightcove integration activated, users may upload full motion video to listings and have it reflect in DASH and on Brightcove.
 
 :::tip
 It is highly recommended that users refer to the Sotheby's International Realty Style Guide for guidelines on acceptable video content. Uploading video without these guidelines in-mind may result in QC rejection.
 :::
+
+## Edit Details
+Listings can be updated manually
