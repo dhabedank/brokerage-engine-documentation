@@ -100,5 +100,118 @@ With the Brightcove integration activated, users may upload full motion video to
 It is highly recommended that users refer to the Sotheby's International Realty Style Guide for guidelines on acceptable video content. Uploading video without these guidelines in-mind may result in QC rejection.
 :::
 
-## Edit Details
-Listings can be updated manually
+### Edit Details
+Listing [fields](listings-fields.md) can be updated manually, or through [automated MLS updates](listings-getting-started.md#automated-mls-updates).
+
+### Activity Log
+The Listings Activity Log tracks all changes made to a listing by Users or by Automated MLS Updates.
+
+### Open House
+Track Open House activities internally or, for Realogy-affiliated customers, syndicate dates and times to public marketing websites. To register a valid open house in Brokerage Engine, please ensure all following field requirements are met. Adding open houses will only be available when a listing has moved to <Highlight color="#16D39A">ACTIVE</Highlight> status.
+- Date
+- Start Time
+- End Time
+- Show on Internet?
+- By Appointment **(optional)**
+- Virtual Open House?
+  - Virtual open houses will syndicate with a link to where the agent will be broadcasting (Zoom, Facebook Live, Google Hangouts, etc.).
+- Remarks **(optional)**
+  - Where supported, remarks will syndicate to public marketing websites.
+
+Once all fields are complete, click the Save ( 💾 ) action button.
+
+### Seller Report
+Powered by [ListTrac](https://www.listtrac.com/MS/index.html), seller reports track view metrics on all public marketing websites where the listing is syndicated. Metrics include the following. Viewing seller reports will only be available when a listing has moved to <Highlight color="#16D39A">ACTIVE</Highlight> status.
+- Total Listing Views
+  - Breakdown by reporting source.
+  - Top 10 Cities
+  - Top 10 States (or International)
+- Last 30 Days of Views
+  - Breakdown by reporting source.
+- Listing Views Over Time
+
+In addition to ListTrac data, Brokerage Engine Seller Reports will display all completed Marketing tasks associated with a property.
+
+#### Download PDF
+A user may download the seller report rendered in PDF format.
+
+#### Email Report
+
+:::tip
+Brokerage Engine will autofill **"To:"** with the seller's email, if it was previously entered under [Property Information](listings-fields.md/#property-information).
+:::
+
+##### Email
+A user may send one-time seller reports to their client or a 3rd party.
+
+##### Schedule Report
+A user may schedule the seller report to send on a recurring basis, following the schedule below.
+- Weekly
+  - Every Wednesday @ 8:00 AM local time
+- Semi-Monthly
+  - 1st and 15th of each month @ 8:00AM local time
+- Monthly
+  - 1st of each month @ 8:00AM local time
+
+:::note
+Scheduled reports will cease once the listing has moved to <Highlight color="#455A64">Closed</Highlight> status.
+:::
+
+## Listing Documents
+A listing documents checklist is populated automatically upon [Quick Launch](listings-getting-started.md/#quick-launch-method) of a listing. The Listing Documents widget displays statuses of each document in the checklist, along with a link to <Highlight color="#00B5B8">Manage Documents</Highlight> and see the full document checklist.
+
+## Listing Tasks
+The Listing Tasks widget displays all tasks associated with the listing which are in the following statuses.
+- <Highlight color="#64B5F6">Requested</Highlight>
+- <Highlight color="#FFA87D">In Progress</Highlight>
+- <Highlight color="#FF5252">Pending Info</Highlight>
+- <Highlight color="#FF1744">Pending Review</Highlight>
+- <Highlight color="#10C888">Approved</Highlight>
+
+### Manage Tasks
+Clicking the Manage Tasks button on Listing Tasks provides a full task history including ones which are <Highlight color="#16D39A">Done</Highlight> or were <Highlight color="#B0BEC5">Cancelled</Highlight>.
+
+#### Add Task
+
+##### For `Admin` Users
+Clicking the <Highlight color="#00B5B8">+ Add Task</Highlight> button allows `Admin` users to create the following task types.
+- **Marketing**
+  - Fields Required
+    - Summary (Task Name)
+    - Description
+- **Reminder**
+  - Fields Required
+    - Summary (Task Name)
+    - Description
+- **Listing Milestone**
+  - Fields Required
+    - Summary (Task Name)
+    - Description
+    - Upload File (Cover Image)
+      - This is necessary to have the Listing Milestone display on a seller report.
+    - Reference Link
+      - This is recommended for digital milestones, such as email marketing campaigns or links to social media posts.
+      - Ensure that you upload a Cover Image with all milestones.
+
+Clicking the <Highlight color="#00B5B8">+ Add Task</Highlight> **dropdown** allows the `Admin` to trigger the following tasks.
+- Vendor Photo Shoot Workflow Task
+- Vendor Sign Installation Request
+- Vendor Copywriting Request
+
+##### For `Agent` Users
+Clicking the <Highlight color="#00B5B8">+ Add Task</Highlight> button allows `Agent` users to create the following task types.
+- **Reminder**
+  - Fields Required
+    - Summary (Task Name)
+    - Description
+- **Listing Milestone**
+  - Fields Required
+    - Summary (Task Name)
+    - Description
+    - Upload File (Cover Image)
+      - This is necessary to have the Listing Milestone display on a seller report.
+    - Reference Link
+      - This is recommended for digital milestones, such as email marketing campaigns or links to social media posts.
+      - Ensure that you upload a Cover Image with all milestones.
+
+## Marketing Opportunities

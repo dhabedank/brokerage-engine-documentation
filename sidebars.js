@@ -3,7 +3,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Overview',
-      items: ['intro','reference','dashapi','admin-tools','invoices','permissions'],
+      items: ['intro','reference','dashapi','admin-tools','invoices','permissions','notification-library'],
     },
     {
       type: 'category',
