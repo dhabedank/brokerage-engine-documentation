@@ -9,7 +9,7 @@ module.exports = {
       type: 'category',
       label: 'Listings',
       collapsed: false,
-      items: ['listings/listings-overview','listings/listings-getting-started'],
+      items: ['listings/listings-overview','listings/listings-statuses','listings/listings-fields','listings/listings-getting-started', 'listings/listings-listing-detail'],
     },
     {
       type: 'category',

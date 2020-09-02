@@ -18,11 +18,6 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-## Statuses
-Statuses in Brokerage Engine are derived, with some limited exceptions, from those available in Realogy's dashAPI.
-
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/M2WPaaF5ecY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## New Listing
 An agent at the brokerage will initiate a listing in Brokerage Engine using the Quick Launch feature. However, a member of the brokerage staff can initiate the listing within Brokerage Engine upon the agent’s request.
 
@@ -54,7 +49,7 @@ For clients who would like staff to control the listing entry process completely
 In an effort to limit the amount of duplicate entry done by an agent or staff member, but also gain benefits of the Quick Launch process - Brokerage Engine supports what we call Mixed Listing Entry Mode. Agents may perform the traditional Quick Launch process and upon the listing going Active in MLS, a staff member can do a full import/overwrite of the existing listing in Brokerage Engine with data and photos from the MLS. The agent or staff member must ensure a valid MLS number is entered on the Brokerage Engine listing prior to import to avoid duplicate listings in the system.
 
 ## Edit Listing
-The agent is encouraged to provide as much detail on a listing as possible, prior to going <Highlight color="#16D39A">ACTIVE</Highlight>. This can be accomplished through manual data entry by the agent, or by the brokerage staff member. Throughout the lifetime of the listing, an agent has the ability to update critical and time sensitive details of a listing like Price and Expiration Date. Brokerage Engine will automatically issue a required compliance task and notification email to agents for them to submit the necessary paperwork.
+The agent is encouraged to provide as much detail on a listing as possible, prior to going <Highlight color="#16D39A">ACTIVE</Highlight>. This can be accomplished through manual data entry by the agent, or by the brokerage staff member. Throughout the lifetime of the listing, an agent has the ability to update critical and time sensitive details of a listing like `Price` and `Expiration Date`. Brokerage Engine will automatically issue a required compliance task and notification email to agents for them to submit the necessary paperwork.
 
 ### Manual Updates
 Listings details may be updated while the listing is in <Highlight color="#E57373">DRAFT</Highlight>, <Highlight color="#FFD54F">GOOD TO LAUNCH</Highlight> and <Highlight color="#16D39A">ACTIVE</Highlight> statuses. Once a listing goes into <Highlight color="#FFA87D">PENDING</Highlight> status, neither agents nor staff members may make any alterations to the listing. This is a restriction of the dashAPI. If changes to the listing are needed while in <Highlight color="#FFA87D">PENDING</Highlight> status - they can be made from the DASH interface directly by brokerage staff.

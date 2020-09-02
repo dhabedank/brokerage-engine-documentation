@@ -29,8 +29,24 @@ export const Highlight = ({children, color}) => (
 
 The language of real estate is diverse and wide-ranging. Understanding the terms we use in Brokerage Engine is key to effectively navigating your way through the platform. In this article, we provide definitions and additional context to the fields, functionalities and features contained within the platform.
 
-## General
+## The Basics
 Brokerage Engine is a modular platform, but there are some common features that interplay with listings, tasks, marketing and documents. Below we discuss those in more detail.
+
+### White Labeling
+Brokerage Engine empowers companies with a software experience tailored to their own brand identity with no indication to agents that the platform is provided by Brokerage Engine. A customer can chose the following customizations to their instance.
+-  **Logos**
+-  **Platform Name** (ie. Kuper Connect, Dielmann Direct, Agent Business Center, etc.)
+   -  This name reflects on all references to the system, in-app and in notifications.
+-  **Website Domain**
+   -  Can be a custom domain (ie. `kuperconnect.com`) or a subdomain of your choosing (ie. `connect.kuperrealty.com`).
+-  **Notification Emails**
+   -  Send system notifications from and receive replies to a company branded email address.
+-  **Local Area Code**
+   -  SMS text notifications may be configured to send from a unique phone number, localized to the customer's market area.
+
+:::note
+Please contact your Brokerage Engine representative for assistance with all white labeling requests.
+:::
 
 ### Dashboard
 The Dashboard provides users with updates and quick access to Brokerage Engine data through a collection of pre-defined widgets. This is not to be confused with the [Transactions dashboard](./transactions/transactions-dashboard.md), which is only accessible by `Accounting` users. 
