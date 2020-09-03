@@ -267,3 +267,28 @@ Please click the button below to view the task and to upload transaction documen
 
 [Upload Documents]
 ```
+
+## Marketing
+
+### Task Update
+Received by an `Agent` when an `Admin` uploads a marketing proof for review.
+
+```txt title="*Task Update* 8-Pg Brochure (Landscape)"
+Hi David,
+
+Brian Zhang has a new update available for 8-Pg Brochure (Landscape)
+
+Summary: 8-Pg Brochure (Landscape)
+- 7 Whittier Lane, Easton, MA 02356
+
+Date Created: 09/02/2020
+
+Comments: David - please take a moment to review and let me know if changes are necessary.
+
+Please click the button below to view the update and either approve or reject with changes.
+
+[Review Submission]
+
+Brian Zhang
+brian@brokerageengine.com
+```

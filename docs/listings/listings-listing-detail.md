@@ -215,3 +215,4 @@ Clicking the <Highlight color="#00B5B8">+ Add Task</Highlight> button allows `Ag
       - Ensure that you upload a Cover Image with all milestones.
 
 ## Marketing Opportunities
+Marketing Opportunities tagged "Featured on Listing Detail" will display on this widget, which is only visible to `Agent` users. Clicking <Highlight color="#00B5B8">View All Opportunities</Highlight> will take the user to the Marketing Catalog.
