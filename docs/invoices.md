@@ -117,7 +117,7 @@ Brokerage Engine enables agents to seamlessly pay for invoices via credit card, 
 Brokerage Engine supports paying invoices by credit card, powered by an integration with [Braintree Payment Gateway](https://www.braintreepayments.com/). This integration offers an effortless, efficient and secure way of paying down invoices natively within Brokerage Engine.
 
 :::note
-Braintree generally charges 2.9% + $0.30 on all transactions it processes. **Example:** An agent is invoiced for $100 and pays via credit card. The agent will see a $100 charge to their card, while the brokerage receives $96.80. Braintree keeps $3.20 (2.9% + .30).
+Braintree generally charges 2.9% + $0.30 on all transactions it processes. **Example:** An agent is invoiced for $100 and pays via credit card. The agent will see a $100 charge to their card, while the brokerage receives $96.80. Braintree keeps $3.20 (2.9% + $0.30).
 :::
 
 When viewing an invoice, an `Agent` user may click <Highlight color="#00B5B8">Pay Invoice</Highlight> to select a previously used [credit card](reference.md/#payment-settings), or enter details of a new credit card with "Choose another way to pay". Invalid or expired credit cards will return an error message ("Please check your information and try again.").
@@ -127,4 +127,37 @@ If the payment is successful, the agent will receive a confirmation message. If 
 :::info Monthly Statements
 For customers who issue monthly statements to agents, when an `Agent` user clicks the <Highlight color="#00B5B8">Pay Invoice</Highlight> button - they will receive a "No Payment Required. The invoice will be included in your monthly statement." notice.
 :::
+
+Invoices paid by credit card will automatically apply towards that agent's balance in the Accounting System.
+
+### Allowances
+For companies which issue allowances, `Agent` users can choose to pay any invoice from their available balance.
+
+:::note
+Use of allowances **may not be restricted** to only certain types of invoices.
+:::
+
+#### Manage Allowances
+`Accounting` users can issue allowances to `Agent` users by navigating to **Invoices >> Allowances**, searching for the agent in question and clicking the action button. The Allowance Detail screen will display an agent's current allowance accounting, along with invoices that have been paid using their allowance.
+
+##### Add Adjustment
+In the event an allowance needs to be fully or fractionally rescinded, clicking the <Highlight color="#00B5B8">Add Adjustment</Highlight> will allow the `Accounting` user to make such adjustments.
+- Adjustment Type
+  - Allowance Expiration
+    - If the customer's allowance program has a time frame on allowances issued.
+  - Accounting Adjustment
+    - Generally used in over-allocation scenarios.
+  - Others
+    - Please be sure to include comments.
+- Amount
+  - Enter an exact dollar figure to be subtracted from the agent's current allowance balance. Or, enter a percentage which will calculate the dollar amount to reduce from the current allowance balance.
+- Comments
+  - Comments are reflected on the Allowance Detail history screen.
+
+##### Make Deposit
+To issue an allowance, click the <Highlight color="#00B5B8">Make Deposit</Highlight> button.
+- Amount
+  - Enter the amount you would like to increase an agent's allowance by.
+- Comments
+  - Comments are reflected on the Allowance Detail history screen.
 
