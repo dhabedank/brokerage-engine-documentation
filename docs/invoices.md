@@ -110,6 +110,36 @@ Invoices can be issued manually by navigating to **Invoices >> Open Invoices** a
 
 Clicking <Highlight color="#00B5B8">Add Item</Highlight> will allow the user to add additional line items.
 
+## Invoice Detail
+The Invoice Detail screen provides information about an invoice, notes, an audit trail and controls for editing the invoice. Only users with `Accounting` permissions and above may edit invoices.
+
+#### Download PDF
+Downloads a copy, in PDF format, of the invoice for record-keeping purposes.
+
+### Edit Details
+The Edit Details button allows an `Accounting` user to modify the following.
+- Bill To
+  - Invoices may be reassigned to another agent.
+- Delete Line Item
+  - Allows the user to delete specific line items on an invoice.
+- Add Adjustment
+  - Increase or decrease the $ amount of a line item. Putting a negative (-) before the adjustment will decrease the line item by that amount.
+
+Be sure to click <Highlight color="#16D39A">Done Edit</Highlight> once all adjustments to the invoice have been made.
+
+#### Split Invoice
+Found under the Edit Details dropdown, `Accounting` users can split invoices between two or more agents.
+
+:::note
+Splitting invoices will void the existing invoice and create new invoices for the agents.
+:::
+
+#### Mark Paid
+Found under the Edit Details dropdown, `Accounting` users can mark an invoice as paid or issue a partial payment towards the invoice.
+
+#### Void Invoice
+Found under the Edit Details dropdown, `Accounting` users can mark an invoice as <Highlight color="#B0BEC5">Voided</Highlight>. Voiding an invoice will also void the receivable in the Accounting System.
+
 ## Payment Methods
 Brokerage Engine enables agents to seamlessly pay for invoices via credit card, allowance or commission. Below we outline how different payment methods interact with invoices and the Accounting System.
 
@@ -160,4 +190,14 @@ To issue an allowance, click the <Highlight color="#00B5B8">Make Deposit</Highli
   - Enter the amount you would like to increase an agent's allowance by.
 - Comments
   - Comments are reflected on the Allowance Detail history screen.
+
+Should an invoice be paid by allowance, an `Accounting` user must mark that invoice as paid in the Accounting System.
+
+### Commission
+`Accounting` users may, while processing a [transaction](transactions-transaction.md/#agent-open-balances), pay down an agent's open balance from the proceeds of a transaction.
+
+Should an invoice be paid by commission, an `Accounting` user must mark that invoice as paid in the Accounting System **and** also Mark Paid from the Edit Invoice dropdown located in the Invoice Detail screen.
+
+### Other Payment Methods
+Agents may choose to pay invoices with alternative payment methods, such as by check or cash. In this event, an `Accounting` user must mark that invoice as paid in the Accounting System **and** also Mark Paid from the Edit Invoice dropdown located in the Invoice Detail screen.
 
