@@ -41,13 +41,17 @@ An invoice in Voided status has been voided by an `Accounting` user.
 Creating invoices can be accomplished several ways, either manually or through workflows. Below we discuss these methods and the differences between them.
 
 ### Marketing Orders
-When initiating an order through the Marketing Catalog, `Agent` users will be issued an invoice for the relevant amount in <Highlight color="#FFA87D">Open</Highlight> status. If the opportunity has been configured with Invoice Upon Task Completion selected, the invoice will be issued in <Highlight color="#FFA87D">Pending</Highlight> status.
+When initiating an order through the Marketing Catalog, `Agent` users will be issued an invoice for the relevant amount in <Highlight color="#FFA87D">Open</Highlight> status. If the opportunity has been configured with **Invoice Upon Task Completion** selected, the invoice will be issued in <Highlight color="#FFA87D">Pending</Highlight> status.
 
 ### Subscriptions
-Subscriptions are used to invoice agents for services provided on a recurring basis such as desk fees, MLS dues or E&O. `System` users have the option to create new Subscriptions, while `Accounting` and above users can opt agents into Subscriptions.
+Subscriptions are used to invoice agents for services provided on a recurring basis such as desk fees, MLS dues or E&O. `System` users have the option to create new Subscriptions, while `Admin` and above users can opt agents into Subscriptions.
+
+:::info
+Customers can choose whether they would like Subscriptions to follow "bill forward" or "bill backwards" logic. This logic must be applied to all Subscriptions.
+:::
 
 #### Add Subscription
-While logged in as a `System` user, navigate to Invoices >> Subscriptions and click on the <Highlight color="#00B5B8">+ Add Subscription</Highlight> button. After completing the fields below, be sure to click <Highlight color="#00B5B8">Add</Highlight>.
+While logged in as a `System` user, navigate to **Invoices >> Subscriptions** and click on the <Highlight color="#00B5B8">+ Add Subscription</Highlight> button. After completing the fields below, be sure to click <Highlight color="#00B5B8">Add</Highlight>.
 - Name
   - How the Subscription will be referred-to in Brokerage Engine, as well as the line item that is displayed on an invoice.
 - Ledger Account
@@ -63,4 +67,47 @@ While logged in as a `System` user, navigate to Invoices >> Subscriptions and cl
 - Description
   - This will display in Brokerage Engine and on any Subscription invoices issued.
 
+#### Edit Subscription
+Edits to Subscriptions can be made but are not retroactive and will only apply to future Subscription invoices issued.
+
+#### Edit Subscribers
+Individual agents can be searched from the company roster and opted into subscriptions using the Activate Subscription action button. <Highlight color="#00B5B8">Batch Activation</Highlight> is particularly helpful for opting entire offices into new Subscriptions, or making updates to existing Subscription terms.
+
+##### Activate Subscription
+Click the Activate Subscription action icon on a given agent and provide the following details. After completing the fields below, be sure to click <Highlight color="#00B5B8">Activate</Highlight>.
+- Start Date
+  - Invoices are billed on the 1st of each month and cannot be issued retroactively.
+  - It is recommended to set an agent's Start Date to the last day of the month prior to when you would like Subscription billing to start.
+- End Date **(optional)**
+  - It is recommended to set an agent's End Date to the day after you would like them to receive their final Subscription invoice.
+- Term **(optional)**
+  - Predefined subscription term lengths.
+    - 3 Months
+    - 6 Months
+    - 12 Months
+- Price Override
+  - Leave blank to use default price.
+- Comments
+  - What additional comments would you like shown on an invoice?
+
 ### Manual Invoice
+Invoices can be issued manually by navigating to **Invoices >> Open Invoices** and clicking the <Highlight color="#00B5B8">+ New Invoice</Highlight> button. After completing the fields below, be sure to click <Highlight color="#00B5B8">Save</Highlight>.
+- Bill To
+  - Indicate which `Agent` user should be assigned the invoice.
+- Invoice Date
+  - Indicate the date an invoice was should be issued.
+    - If issued at a future date, the invoices will still be visible to the agent once saved.
+- Due Date
+  - Once an unpaid invoice has surpassed its Due Date, the status will change to <Highlight color="#FFA000">Overdue</Highlight>.
+  - If the agent is opted into Autopay, they will be billed for an invoice on its Due Date.
+- Invoice Item
+  - Opportunities configured with **Restricted for Admin Invoicing** checkbox selected.
+  - Brokerage Engine requires an Opportunity to be created prior to billing an agent manually. Opportunities contain additional logic, such as category and ledger account, which are essential to ensure correct accounting of receivables.
+- Invoice Amount
+  - How much should the agent be billed for?
+- Invoice Detail
+  - What comments should show on an invoice?
+
+Clicking <Highlight color="#00B5B8">Add Item</Highlight> will allow the user to add additional line items.
+
+## Payment Methods
