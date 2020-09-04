@@ -131,14 +131,14 @@ For customers who issue monthly statements to agents, when an `Agent` user click
 Invoices paid by credit card will automatically apply towards that agent's balance in the Accounting System.
 
 ### Allowances
-For companies which issue allowances, `Agent` users can choose to pay any invoice from their available balance.
-
-:::note
-Use of allowances **may not be restricted** to only certain types of invoices.
-:::
+For companies which issue allowances, `Agent` users can choose to pay any invoice from their available balance. Use of allowances may not be restricted to only certain types of invoices.
 
 #### Manage Allowances
 `Accounting` users can issue allowances to `Agent` users by navigating to **Invoices >> Allowances**, searching for the agent in question and clicking the action button. The Allowance Detail screen will display an agent's current allowance accounting, along with invoices that have been paid using their allowance.
+
+:::tip
+An `Agent` user can view their current allowance balance, and history, by navigating to the **Invoices** tab from their account.
+:::
 
 ##### Add Adjustment
 In the event an allowance needs to be fully or fractionally rescinded, clicking the <Highlight color="#00B5B8">Add Adjustment</Highlight> will allow the `Accounting` user to make such adjustments.
