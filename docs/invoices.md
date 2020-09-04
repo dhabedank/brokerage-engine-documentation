@@ -111,3 +111,20 @@ Invoices can be issued manually by navigating to **Invoices >> Open Invoices** a
 Clicking <Highlight color="#00B5B8">Add Item</Highlight> will allow the user to add additional line items.
 
 ## Payment Methods
+Brokerage Engine enables agents to seamlessly pay for invoices via credit card, allowance or commission. Below we outline how different payment methods interact with invoices and the Accounting System.
+
+### Credit Card
+Brokerage Engine supports paying invoices by credit card, powered by an integration with [Braintree Payment Gateway](https://www.braintreepayments.com/). This integration offers an effortless, efficient and secure way of paying down invoices natively within Brokerage Engine.
+
+:::note
+Braintree generally charges 2.9% + $0.30 on all transactions it processes. **Example:** An agent is invoiced for $100 and pays via credit card. The agent will see a $100 charge to their card, while the brokerage receives $96.80. Braintree keeps $3.20 (2.9% + .30).
+:::
+
+When viewing an invoice, an `Agent` user may click <Highlight color="#00B5B8">Pay Invoice</Highlight> to select a previously used [credit card](reference.md/#payment-settings), or enter details of a new credit card with "Choose another way to pay". Invalid or expired credit cards will return an error message ("Please check your information and try again.").
+
+If the payment is successful, the agent will receive a confirmation message. If the payment is unsuccessful, the agent will receive a "Failed to Process Payment. Please contact accounting for assistance." error message.
+
+:::info Monthly Statements
+For customers who issue monthly statements to agents, when an `Agent` user clicks the <Highlight color="#00B5B8">Pay Invoice</Highlight> button - they will receive a "No Payment Required. The invoice will be included in your monthly statement." notice.
+:::
+
