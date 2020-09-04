@@ -91,7 +91,11 @@ Click the Activate Subscription action icon on a given agent and provide the fol
   - What additional comments would you like shown on an invoice?
 
 ### Manual Invoice
-Invoices can be issued manually by navigating to **Invoices >> Open Invoices** and clicking the <Highlight color="#00B5B8">+ New Invoice</Highlight> button. After completing the fields below, be sure to click <Highlight color="#00B5B8">Save</Highlight>.
+Invoices can be issued manually by navigating to **Invoices >> Open Invoices** and clicking the <Highlight color="#00B5B8">+ New Invoice</Highlight> button.
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/S5W0RgPYobU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+After completing the fields below, be sure to click <Highlight color="#00B5B8">Save</Highlight>.
 - Bill To
   - Indicate which `Agent` user should be assigned the invoice.
 - Invoice Date
