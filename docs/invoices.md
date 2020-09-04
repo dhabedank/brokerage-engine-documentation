@@ -18,7 +18,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-Prior to Brokerage Engine, tracking agent expenses on marketing and services was a messy process. Tracking spreadsheets, missed charges, erroneous charges, weeks (or months) of waiting on receivables - were so commonplace. With Brokerage Engine's invoicing system, you can say goodbye to all of that.
+Prior to Brokerage Engine, tracking agent expenses on marketing and services was a messy process. Tracking spreadsheets, missed charges, erroneous charges, weeks (or months) of waiting on receivables - were so commonplace. With Brokerage Engine's invoicing system, you can say goodbye to all of that. Issued invoices are immediately available to agents for payment, or autopayment, and stay in sync with the Accounting System.
 
 ## Invoice Statuses
 
@@ -37,4 +37,30 @@ An invoice in Paid status has been paid by the agent, or indicated as paid by an
 #### <Highlight color="#B0BEC5">Voided</Highlight>
 An invoice in Voided status has been voided by an `Accounting` user.
 
-## Workflow
+## Create an Invoice
+Creating invoices can be accomplished several ways, either manually or through workflows. Below we discuss these methods and the differences between them.
+
+### Marketing Orders
+When initiating an order through the Marketing Catalog, `Agent` users will be issued an invoice for the relevant amount in <Highlight color="#FFA87D">Open</Highlight> status. If the opportunity has been configured with Invoice Upon Task Completion selected, the invoice will be issued in <Highlight color="#FFA87D">Pending</Highlight> status.
+
+### Subscriptions
+Subscriptions are used to invoice agents for services provided on a recurring basis such as desk fees, MLS dues or E&O. `System` users have the option to create new Subscriptions, while `Accounting` and above users can opt agents into Subscriptions.
+
+#### Add Subscription
+While logged in as a `System` user, navigate to Invoices >> Subscriptions and click on the <Highlight color="#00B5B8">+ Add Subscription</Highlight> button. After completing the fields below, be sure to click <Highlight color="#00B5B8">Add</Highlight>.
+- Name
+  - How the Subscription will be referred-to in Brokerage Engine, as well as the line item that is displayed on an invoice.
+- Ledger Account
+  - Select which account the receivable should track to in the Accounting System.
+- Frequency
+  - How often should an agent be billed?
+    - Monthly
+    - Quarterly
+    - Yearly
+- Default Price
+  - How much should the agent be charged?
+  - This value can be overridden on an case-by-case basis when opting agents into the Subscription.
+- Description
+  - This will display in Brokerage Engine and on any Subscription invoices issued.
+
+### Manual Invoice
