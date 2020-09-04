@@ -8,6 +8,10 @@ module.exports = {
   organizationName: 'dhabedank', // Usually your GitHub org/user name.
   projectName: 'brokerage-engine-docs', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: '5bd911786d9cf6e6c2fb6f61b3ddd915',
+      indexName: 'brokerageengine_learn',
+    },
     googleAnalytics: {
       trackingID: 'UA-162629636-2',
     },
