@@ -28,7 +28,9 @@ In the event that a member of staff is an `Admin`, but also maintains a salesper
 :::
 
 ## Add Opportunity
-Below we discuss the fields included on a New Marketing Opportunity screen, and also suggest best practices for setting up your own opportunties.
+Below we discuss the fields included on a New Marketing Opportunity screen, and also suggest best practices for setting up your own opportunities.
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/8B2iwHQSTr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Basic Info
 Whenever adding opportunities, Brokerage Engine requires the following fields at a minimum.
