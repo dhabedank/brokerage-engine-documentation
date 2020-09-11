@@ -18,7 +18,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-3rd party vendors are at the heart of real estate operations. They take our photos, help us with marketing, do are inspections, install our signs and so much more. To that end, its essential for your back office to effectively interface with those valued parties. Brokerage Engine supports creating vendor profiles and assigning opportunities to be worked on by those vendors.
+3rd party vendors are at the heart of real estate operations. They take our photos, help us with marketing, do our inspections, install our signs and so much more. To that end, its essential for your back office to effectively interface with those valued parties. Brokerage Engine supports creating vendor profiles and assigning opportunities to be worked on by those vendors.
 
 ## Manage Vendors
 To manage vendors, simply click on the Marketing tab while logged in as an `Admin` user. From the Marketing Opportunities browser, select "Manage Vendors" from the <Highlight color="#00B5B8">+ Add Opportunity</Highlight> dropdown. You will now see all vendors for your company listed here.
