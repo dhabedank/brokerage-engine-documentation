@@ -16,7 +16,7 @@ module.exports = {
       type: 'category',
       label: 'Marketing',
       collapsed: true,
-      items: ['marketing/marketing-overview','marketing/marketing-create'],
+      items: ['marketing/marketing-overview','marketing/marketing-create','marketing/marketing-vendors'],
     },
     {
       type: 'category',
