@@ -65,7 +65,7 @@ Brokerage Engine allows vendors to complete assigned tasks without ever logging 
 This welcome email will include the vendor's login credentials, and a link to access the Customer's instance of Brokerage Engine with limited permissions. We recommend reading more about [Vendor](permissions.md/#vendor) permissions.
 
 ## Vendor Opportunities
-When setup as such, opportunities in the marketing catalog can be managed completed between agents and vendors. Setup is simple! When [creating a marketing opportunity](marketing/marketing-create.md#add-opportunity), set the Task Category field to one of the Vendor specific categories. By default, Brokerage Engine includes the following categories which correlate to the very same vendor tags.
+When setup as such, opportunities in the marketing catalog can be managed completely between agents and vendors. Setup is simple! When [creating a marketing opportunity](marketing/marketing-create.md#add-opportunity), set the Task Category field to one of the Vendor specific categories. By default, Brokerage Engine includes the following categories which correlate to the very same vendor tags.
 - Vendor - Copy Writing
 - Vendor - Creative Marketing
 - Vendor - Photo Shooting
