@@ -80,6 +80,10 @@ Provides a summary of task pending the `Agent` user's input or tasks in progress
 #### Upcoming Events Dashboard Widget
 Integrates natively with [Eventbrite](https://www.eventbrite.com/) to display company events, trainings or sales meetings. Customer does have an option to embed a calendaring solution of their choice, as long as it supports iFrame embedding.
 
+:::note Enable Evenbrite Integration
+From the Customer's Eventbrite account, navigate to Account Settings >> Developer Links >> API Keys. Use the "Create API Key" function and send a request to [support](mailto:help@brokerageengine.com) with your API key, Client Secret, Private Token and Public Token.
+:::
+
 #### Links & Documents Dashboard Widget
 `Admin` users may add links, or upload files, for commonly used resources in the brokerage. `Agent` users can search by name or category (which can be defined under the [General System Configuration](/docs/admin-tools#general-system-configuration) screen) to easily find the resources.
 
