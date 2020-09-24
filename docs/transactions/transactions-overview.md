@@ -17,7 +17,7 @@ Paint the true picture of each transaction by mandating concessions when agentsâ
 ### Automation
 Generate Disbursement Authorizations and Agent Transaction Breakdowns in the click-of-a-button.
 
-### And so much more
+### And so much more!
   - Pay agents via check, electronic funds transfer or at title.
   - Calculate flat rate, accumulation, rolling 365 and threshold based commission plans in an instant.
   - Access ready-to-use reports and stay on top of your business.

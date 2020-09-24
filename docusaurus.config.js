@@ -24,8 +24,32 @@ module.exports = {
       items: [
         {
           to: 'docs',
-          activeBasePath: '/',
+          activeBasePath: 'docs',
           label: 'Docs',
+          position: 'left',
+        },
+        {
+          to: 'docs/listings/listings-overview',
+          activeBasePath: '/docs/listings',
+          label: 'Listings',
+          position: 'left',
+        },
+        {
+          to: 'docs/marketing/marketing-overview',
+          activeBasePath: '/docs/marketing',
+          label: 'Marketing',
+          position: 'left',
+        },
+        {
+          to: 'docs/documents/documents-overview',
+          activeBasePath: '/docs/documents',
+          label: 'Documents',
+          position: 'left',
+        },
+        {
+          to: 'docs/transactions/transactions-overview',
+          activeBasePath: '/docs/transactions',
+          label: 'Transactions',
           position: 'left',
         },
       ],

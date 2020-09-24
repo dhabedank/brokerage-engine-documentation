@@ -20,6 +20,12 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Documents',
+      collapsed: true,
+      items: ['documents/documents-overview'],
+    },
+    {
+      type: 'category',
       label: 'Transactions',
       collapsed: true,
       items: ['transactions/transactions-overview','transactions/transactions-workflow', 'transactions/transactions-dashboard','transactions/transactions-transaction','transactions/transactions-addressbook'],
