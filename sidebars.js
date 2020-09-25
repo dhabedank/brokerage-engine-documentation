@@ -22,7 +22,7 @@ module.exports = {
       type: 'category',
       label: 'Documents',
       collapsed: true,
-      items: ['documents/documents-overview'],
+      items: ['documents/documents-overview','documents/documents-getting-started'],
     },
     {
       type: 'category',
