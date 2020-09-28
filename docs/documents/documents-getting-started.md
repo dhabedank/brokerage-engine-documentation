@@ -6,13 +6,20 @@ hide_title: false
 hide_table_of_contents: false
 description: Manage compliance and storage of documents like a pro.
 ---
-export const Highlight = ({children, color}) => (
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+library.add(
+  fas
+);
+
+export const Highlight = ({children, color, padding}) => (
   <span
     style={{
       backgroundColor: color,
       borderRadius: '4px',
       color: '#fff',
-      padding: '0.3rem',
+      padding: padding,
     }}>
     {children}
   </span>
@@ -41,7 +48,7 @@ For each scenario, the administrator lists all documents and defines them as eit
 - **`Required`**
   - Documents which populate on all checklists of that type. For example, a *Listing Agreement* is generally required on all listings.
 - **`Optional`**
-  - Documents which do not automatically populate on a checklist but can be manually added, when necessary, by an agent or staff member using the <Highlight color="#00B5B8">+ Add Document</Highlight> button.
+  - Documents which do not automatically populate on a checklist but can be manually added, when necessary, by an agent or staff member using the <Highlight color="#00B5B8" padding="0.3em">+ Add Document</Highlight> button.
 - **`Conditional`**
   - Documents which **only** populate when specific criteria is met. For example, you only want a Lead Based Paint disclosure to populate when the property was built prior to 1978.
 
@@ -90,3 +97,59 @@ Documents can be managed through the Documents List screen, accessed from the ma
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/j9uXgtGZrIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Anatomy of a Checklist
+In the following section, we discuss some common functionality for document lists.
+
+##### <Highlight color="#00B5B8" padding="0.7em"><FontAwesomeIcon icon={['fas', 'file-pdf']} /> Quick Audit</Highlight>
+
+Quick Audit is a powerful tool which empowers document managers to do the majority of their work from one interface.
+![Quick Audit](/docs/quick-audit.png)
+When Quick Auditing an individual file, the `Admin` user will see all documents in <Highlight color="#FF1744" padding="0.3em">Pending Review</Highlight> or <Highlight color="#D50000" padding="0.3em">Pending Final Review</Highlight> and can either approve or reject. When a document is approved or rejected, the Quick Audit interface will cycle to the next document automatically, upating the preview window and making the file review process much faster. The Quick Audit screen includes the following elements.
+- **Document Lists**
+  - Checklists included in the current Quick Audit, based on filters.
+- **Documents**
+  - Documents available for review in the selected Document List.
+- **Document Preview**
+  - Renders an on-screen PDF preview of the selected document.
+- **Listing Info**
+  - Listing checklists only.
+  - Provides some key information on the listing related to the current document checklist.
+- **Transaction Info**
+  - Transaction checklists only.
+  - Provides some key information on transaction related to the current document checklist.
+- **Past Comments**
+  - Lists out the recent comments left on the document.
+
+:::note
+For transaction checklists related to a company listing, the home (<FontAwesomeIcon icon={['fas', 'home']} />) icon links a user back to the listing details page for easy referencing.
+:::
+
+##### <Highlight color="#00B5B8" padding="0.7em"><FontAwesomeIcon icon={['fas', 'envelope']} /> Send Status Recap</Highlight>
+
+Allows the `Admin` user to send a email recap of the status of the document file. User can chose to include agents on the Listing side or Selling side, along with CCing third parties.
+![Quick Audit](/docs/send-status-recap.png)
+`System` users have the ability to pre-define commonly used CC emails from the [General System Configuration](admin-tools.md#general-system-configuration) screen. To include pre-defined templates, please submit your request to the Brokerage Engine [support](mailto:help@brokerageengine.com) team.
+
+:::tip
+Sometimes, a document manager just wants to leave a comment on a file for their personal use. This can be accomplished through the **Send Status Recap** screen by selecting no recipients and clicking **Send** after writing your comment.
+:::
+
+##### <Highlight color="#00B5B8" padding="0.7em"><FontAwesomeIcon icon={['fas', 'plus']} /> Add Document</Highlight>
+
+The Add Document modal allows a user to add Optional [document templates](#configuring-document-lists) to the current checklist, or to create custom checklist items specific to the current checklist.
+
+![Add Document](/docs/add-document.gif)
+
+##### <Highlight color="#00B5B8" padding="0.7em"><FontAwesomeIcon icon={['fas', 'plus']} /> Upload & Split</Highlight>
+
+The upload & split tool allows users to take a PDF and split its pages out into several checklist requirements. The video below explains the process in greater detail.
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XFgmxs_95V8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### <Highlight color="#00B5B8" padding="0.7em"><FontAwesomeIcon icon={['fas', 'download']} /> Download Documents</Highlight>
+
+The Download Documents button allows users to download all documents, in the specific checklist, which are in <Highlight color="#16D39A" padding="0.3em">Done</Highlight> status. Clicking this button will initiate the download of a .zip file.
+
+##### <Highlight color="#00B5B8" padding="0.7em"><FontAwesomeIcon icon={['fas', 'print']} /> Print Document Log</Highlight>
+
+The Print Document Log feature provides a complete snapshot of a file, including details about the transaction, all activities, comments and direct download links to files. Use **CMD+P** (Mac) or **CTRL+P** (Windows/Linux) to print the log. Use the <Highlight color="#00B5B8" padding="0.3em"><FontAwesomeIcon icon={['fas', 'share-alt']} /> Share Link</Highlight> button to turn on, or turn off, 3rd party access to the document log - this will output a link which can be shared with the 3rd party without requiring a Brokerage Engine login. This tool is especially helpful if the transaction is involved in any sort of legal dispute.
+

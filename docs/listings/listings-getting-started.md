@@ -6,6 +6,13 @@ hide_title: false
 hide_table_of_contents: false
 description: Learn how you can get up and running with listings in Brokerage Engine.
 ---
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+library.add(
+  fas
+);
+
 export const Highlight = ({children, color}) => (
   <span
     style={{
@@ -26,7 +33,7 @@ An agent at the brokerage will initiate a listing in Brokerage Engine using the 
 ### Quick Launch Method
 A Quick Launch is the recommended method for initial listing entry to Brokerage Engine. By encouraging users to Quick Launch their new listing, Brokerage Engine provides several benefits such as: Send a Coming Soon, Order marketing and photos and Upload documentation prior to MLS listing activation.
 
-1. From the Dashboard, start by clicking the <Highlight color="#00B5B8">Quick Launch</Highlight> button on the Coming Soon dashboard widget.
+1. From the Dashboard, start by clicking the <Highlight color="#00B5B8"><FontAwesomeIcon icon={['fas', 'file-pdf']} />Quick Launch</Highlight> button on the Coming Soon dashboard widget.
 2. Begin typing the listing address. You will notice that Brokerage Engine beings to populate a list of suggested addresses from Google Maps.
    - Alternatively, you can enter an addresses manually if they have not been mapped yet. Use the ***Click Here*** link below the search box to proceed with manual entry.
 3. Once the address is selected, Brokerage Engine will now display additional fields for things like Location, Property Information and Listing Details. You **must** include the following fields to save a Quick Launch.
