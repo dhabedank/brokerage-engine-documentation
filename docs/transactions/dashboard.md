@@ -1,5 +1,5 @@
 ---
-id: transactions-dashboard
+id: dashboard
 title: Dashboard
 sidebar_label: Dashboard
 ---

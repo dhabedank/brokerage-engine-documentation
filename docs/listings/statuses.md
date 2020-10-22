@@ -1,5 +1,5 @@
 ---
-id: listings-statuses
+id: statuses
 title: Listing Statuses Explained
 sidebar_label: Statuses
 hide_title: false

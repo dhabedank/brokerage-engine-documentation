@@ -1,5 +1,5 @@
 ---
-id: marketing-create
+id: opportunity-setup
 title: Manage Opportunities
 sidebar_label: Manage Opportunities
 hide_title: false
@@ -72,7 +72,10 @@ Should taxes be added to the order prior to checking out?
 Opportunities with this selected will not be visible in the catalog to `Agent` users and are intended for [manual invoicing](invoices.md/#manual-invoice) purposes only.
 
 #### Listing Selection Required
-Requires the user to select a listing. This generally differentiates listing-specific opportunities from agent promotion marketing.
+Requires the user to select a listing or multiple listings. This generally differentiates listing-specific opportunities from agent promotion marketing.
+
+##### Restrict to Single Listing
+Only permits the user to select a single listing associated with the marketing opportunity.
 
 #### Invoice Upon Task Completion
 Enabling this configuration will generate a <Highlight color="#FFA87D">Pending</Highlight> invoice when an order is submitted, along with the task to be completed by an `Admin` user. Once task has been <Highlight color="#10C888">Approved</Highlight> by the `Agent`, an `Admin` user will be presented an Invoice Confirmation screen to adjust the following invoice attributes.

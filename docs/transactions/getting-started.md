@@ -1,5 +1,5 @@
 ---
-id: transactions-workflow
+id: getting-started
 title: Getting Started with a Transaction Workflow
 sidebar_label: Getting Started with a Transaction Workflow
 ---

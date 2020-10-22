@@ -1,5 +1,5 @@
 ---
-id: transactions-transaction
+id: transaction-detail
 title: Transaction Details Page
 sidebar_label: Transaction Details Page
 ---

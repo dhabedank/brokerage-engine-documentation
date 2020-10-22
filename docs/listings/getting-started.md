@@ -1,5 +1,5 @@
 ---
-id: listings-getting-started
+id: getting-started
 title: Getting Started with Listings
 sidebar_label: Getting Started with Listings
 hide_title: false

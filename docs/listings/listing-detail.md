@@ -1,5 +1,5 @@
 ---
-id: listings-listing-detail
+id: listing-detail
 title: What's in a listing?
 sidebar_label: What's in a listing?
 hide_title: false

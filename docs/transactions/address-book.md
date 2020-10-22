@@ -1,5 +1,5 @@
 ---
-id: transactions-addressbook
+id: address-book
 title: Address Book
 sidebar_label: Address Book
 ---

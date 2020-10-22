@@ -1,5 +1,5 @@
 ---
-id: listings-fields
+id: fields
 title: Fields
 sidebar_label: Fields
 hide_title: false

@@ -1,5 +1,5 @@
 ---
-id: transactions-overview
+id: overview
 title: Transactions Overview
 sidebar_label: Transactions Overview
 ---

@@ -1,5 +1,5 @@
 ---
-id: documents-getting-started
+id: getting-started
 title: Getting Started with Documents
 sidebar_label: Getting Started with Documents
 hide_title: false

@@ -1,5 +1,5 @@
 ---
-id: marketing-vendors
+id: vendors
 title: Vendors
 sidebar_label: Vendors
 hide_title: false

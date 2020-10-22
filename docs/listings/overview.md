@@ -1,5 +1,5 @@
 ---
-id: listings-overview
+id: overview
 title: Listings Overview
 sidebar_label: Listings Overview
 ---

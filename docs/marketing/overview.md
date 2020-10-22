@@ -1,5 +1,5 @@
 ---
-id: marketing-overview
+id: overview
 title: Marketing Overview
 sidebar_label: Marketing Overview
 hide_title: false

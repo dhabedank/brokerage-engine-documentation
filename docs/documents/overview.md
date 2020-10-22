@@ -1,5 +1,5 @@
 ---
-id: documents-overview
+id: overview
 title: Documents Overview
 sidebar_label: Documents Overview
 hide_title: false
