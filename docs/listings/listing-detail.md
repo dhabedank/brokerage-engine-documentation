@@ -101,7 +101,7 @@ It is highly recommended that users refer to the Sotheby's International Realty 
 :::
 
 ### Edit Details
-Listing [fields](listings-fields.md) can be updated manually, or through [automated MLS updates](listings-getting-started.md#automated-mls-updates).
+Listing [fields](fields.md) can be updated manually, or through [automated MLS updates](getting-started.md#automated-mls-updates).
 
 ### Activity Log
 The Listings Activity Log tracks all changes made to a listing by Users or by Automated MLS Updates.
@@ -138,7 +138,7 @@ A user may download the seller report rendered in PDF format.
 #### Email Report
 
 :::tip
-Brokerage Engine will autofill **"To:"** with the seller's email, if it was previously entered under [Property Information](listings-fields.md/#property-information).
+Brokerage Engine will autofill **"To:"** with the seller's email, if it was previously entered under [Property Information](fields.md/#property-information).
 :::
 
 ##### Email
@@ -158,7 +158,7 @@ Scheduled reports will cease once the listing has moved to <Highlight color="#45
 :::
 
 ## Listing Documents
-A listing documents checklist is populated automatically upon [Quick Launch](listings-getting-started.md/#quick-launch-method) of a listing. The Listing Documents widget displays statuses of each document in the checklist, along with a link to <Highlight color="#00B5B8">Manage Documents</Highlight> and see the full document checklist.
+A listing documents checklist is populated automatically upon [Quick Launch](getting-started.md/#quick-launch-method) of a listing. The Listing Documents widget displays statuses of each document in the checklist, along with a link to <Highlight color="#00B5B8">Manage Documents</Highlight> and see the full document checklist.
 
 ## Listing Tasks
 The Listing Tasks widget displays all tasks associated with the listing which are in the following statuses.

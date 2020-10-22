@@ -49,7 +49,7 @@ Please contact your Brokerage Engine representative for assistance with all whit
 :::
 
 ### Dashboard
-The Dashboard provides users with updates and quick access to Brokerage Engine data through a collection of pre-defined widgets. This is not to be confused with the [Transactions dashboard](./transactions/transactions-dashboard.md), which is only accessible by `Accounting` users. 
+The Dashboard provides users with updates and quick access to Brokerage Engine data through a collection of pre-defined widgets. This is not to be confused with the [Transactions dashboard](./transactions/dashboard.md), which is only accessible by `Accounting` users. 
 
 ![Dashboard](/docs/general-dashboard.gif)
 

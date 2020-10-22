@@ -183,7 +183,7 @@ Below we discuss the types of fields that can be added to opportunities, and how
       - Displays a description of the field for the user.
 - **Photo**
   - **Description**
-    - Includes an area to upload photos or, when [Listing Selection Required](#listing-selection-required) is enabled, an agent will be able to select photos from their existing [listing photos](listings/listings-listing-detail.md#listing-photos).
+    - Includes an area to upload photos or, when [Listing Selection Required](#listing-selection-required) is enabled, an agent will be able to select photos from their existing [listing photos](listings/listing-detail.md#listing-photos).
   - **Additional Fields**
     - Instruction Name
       - What do you want the title of the field to display?
