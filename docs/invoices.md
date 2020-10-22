@@ -198,7 +198,7 @@ To issue an allowance, click the <Highlight color="#00B5B8">Make Deposit</Highli
 Should an invoice be paid by allowance, an `Accounting` user must mark that invoice as paid in the Accounting System.
 
 ### Commission
-`Accounting` users may, while processing a [transaction](transactions/transactions-transaction.md/#agent-open-balances), pay down an agent's open balance from the proceeds of a transaction.
+`Accounting` users may, while processing a [transaction](transactions/transaction-detail.md/#agent-open-balances), pay down an agent's open balance from the proceeds of a transaction.
 
 Should an invoice be paid by commission, an `Accounting` user must mark that invoice as paid in the Accounting System **and** also Mark Paid from the Edit Invoice dropdown located in the Invoice Detail screen.
 
